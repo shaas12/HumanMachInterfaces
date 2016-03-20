@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaasContUni1", "HaasContUni1\HaasContUni1.csproj", "{D6275180-C1EC-4D3C-B914-5067935A728B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{8AA80463-1AD4-4415-AD0A-1062D794CD66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{946D2AD3-A473-4B5F-81C3-7D451FE2E8BE}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{13177310-EFC3-4B65-8C09-8F747B78DFD0}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\HaasContUni1.json = PublishScripts\Templates\HaasContUni1.json
+		PublishScripts\Templates\HaasContUni1.param.dev.json = PublishScripts\Templates\HaasContUni1.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6275180-C1EC-4D3C-B914-5067935A728B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6275180-C1EC-4D3C-B914-5067935A728B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6275180-C1EC-4D3C-B914-5067935A728B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6275180-C1EC-4D3C-B914-5067935A728B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{946D2AD3-A473-4B5F-81C3-7D451FE2E8BE} = {8AA80463-1AD4-4415-AD0A-1062D794CD66}
+		{13177310-EFC3-4B65-8C09-8F747B78DFD0} = {8AA80463-1AD4-4415-AD0A-1062D794CD66}
+	EndGlobalSection
+EndGlobal

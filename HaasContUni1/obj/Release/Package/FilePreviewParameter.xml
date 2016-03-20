@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="HaasContUni5" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Shannon\\Documents\\470\\Fall\ 470\\Lab\ 5\\HaasContUni1\\HaasContUni1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Shannon\\Documents\\470\\Fall\ 470\\Lab\ 5\\HaasContUni1\\HaasContUni1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="SchoolContext-Web.config Connection String" description="" value="Data Source=tcp:ozsou0ch61.database.windows.net,1433;Initial Catalog=HaasContUniDB;User Id=haascontuniuser@ozsou0ch61;Password=Pa$$w0rd$22" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Shannon\\Documents\\470\\Fall\ 470\\Lab\ 5\\HaasContUni1\\HaasContUni1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SchoolContext']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "HaasContUni1"
+  },
+  "hostingPlanName": {
+    "value": "StandardWeb"
+  },
+  "siteLocation": {
+    "value": "West US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "lab0db"
+  },
+  "serverLocation": {
+    "value": "West US"
+  },
+  "administratorLogin": {
+    "value": "Lab0DBuser"
+  },
+  "administratorLoginPassword": {
+    "value": "Pa$$w0rd$22"
+  },
+  "databaseName": {
+    "value": "HaasContUni1_db"
+  }
+}
